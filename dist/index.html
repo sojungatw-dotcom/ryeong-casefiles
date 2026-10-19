@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta name="theme-color" content="#111a1a"><meta name="description" content="죽은 이가 남긴 글을 읽고, 지워진 진실을 밝혀라. 밀양 아랑 설화 기반 한국 오컬트 추리 게임.">
+ <title>퇴마 기록실 — 아랑 : 지워진 진술</title>
+ <link rel="icon" href="assets/seal.svg" type="image/svg+xml">
+ <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&family=Noto+Serif+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
+</head>
+<body>
+ <a href="#main" class="skip">본문으로 건너뛰기</a>
+ <aside class="sidebar">
+  <a class="brand" href="#overview" aria-label="퇴마 기록실 처음 화면"><span class="brand-seal">靈</span><span>퇴마 기록실<small>退魔 記錄室</small></span></a>
+  <div class="side-rule"></div><p class="nav-caption">조사관의 서안</p>
+  <nav aria-label="조사 메뉴" id="nav"></nav>
+  <div class="side-case"><span class="tiny">현재 조사 중인 사건</span><div><span class="red-dot"></span> 제일록 · 아랑</div><p>기록되지 못한 죽음,<br>아직 끝나지 않은 이야기.</p><div class="progress"><span id="side-progress"></span></div><small id="side-count">단서 수집 0 / 6</small></div>
+  <div class="side-bottom"><span class="seal-small">密陽</span><span>밀양 관아 · 비밀 기록실<small>죽은 자의 말을 기록하다</small></span></div>
+ </aside>
+ <div class="workspace">
+  <header class="topbar"><div class="breadcrumb">퇴마 기록실 <span>/</span> 첫 번째 사건 <span>/</span> <b id="crumb">사건 개요</b></div><div class="top-actions"><span class="save-state" id="save-state">● 이 기기에 자동 기록</span><button id="sound" class="icon-button" aria-pressed="false" aria-label="배경음 켜기">♬ <span>소리 끔</span></button><button id="help" class="icon-button" aria-label="조사 안내">?</button></div></header>
+  <main id="main" tabindex="-1"></main>
+  <footer><span>밀양 아랑 설화를 바탕으로 재구성한 창작 이야기입니다.</span><span>退魔記錄室 <i>·</i> 第一錄</span></footer>
+ </div>
+ <dialog id="modal" aria-labelledby="modal-title"><button class="close" aria-label="닫기">×</button><div id="modal-body"></div></dialog>
+ <div id="toast" role="status" aria-live="polite"></div>
+</body></html>
