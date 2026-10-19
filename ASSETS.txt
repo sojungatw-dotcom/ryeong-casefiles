@@ -1,0 +1,9 @@
+기록첩 디자인 개정
+
+서체: 사용자 기기에 설치된 /Users/munsojeong/Library/Fonts/YoonDokrip.ttf를 사용.
+웹사이트 파일: dist/assets/YoonDokrip.ttf
+
+한지 질감: built-in image_gen 도구로 생성한 재질 이미지.
+웹사이트 파일: dist/assets/hanji-fibers.png
+프롬프트:
+Use case: photorealistic-natural. Asset type: seamless material texture for a playable Joseon Korean manuscript website. Generate ONE square high resolution flat scan of authentic handmade Korean hanji mulberry paper. Full frame paper texture only, no objects, no letters, no symbols, no torn edges, no page borders, no shadows from external objects. Warm ivory / natural pale flax / muted cream, not orange, lightly aged but clean enough for legible black ink writing. Clearly visible fine irregular long mulberry fibers interwoven, tiny soft pulp flecks, delicate natural uneven density, tactile matte organic surface. Subtle realistic texture at 1:1 macro scale, evenly lit from above, very low contrast, no heavy stains. Seamless-looking homogeneous illumination across edges so CSS can repeat. Photographically credible high quality material scan, NOT a UI mockup.
