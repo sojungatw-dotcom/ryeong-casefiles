@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta name="theme-color" content="#241b14"><meta name="description" content="죽은 이가 남긴 글을 읽고, 지워진 진실을 밝혀라. 밀양 아랑 설화 기반 한국 오컬트 추리 게임.">
+ <title>퇴마 기록실 — 아랑 : 지워진 진술</title>
+ <link rel="icon" href="assets/seal.svg" type="image/svg+xml">
+ <link rel="preload" href="assets/YoonDokrip.ttf" as="font" type="font/ttf" crossorigin>
+ <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="fullscreen.css"><script src="app.js" defer></script>
+</head>
+<body>
+ <a href="#main" class="skip">본문으로 건너뛰기</a>
+ <header class="archive-header">
+  <a class="brand" href="#overview" aria-label="퇴마 기록실 처음 화면"><span class="brand-seal">靈</span><span>퇴마 기록실<small>退魔 記錄室</small></span></a>
+  <div class="archive-meta"><span>밀양 관아 · 비밀 기록실</span><span class="save-state" id="save-state">이 기기에 자동 기록</span><button id="hint-button" class="hint-button" aria-label="진행 힌트 보기">진행 힌트</button><button id="sound" class="icon-button" aria-pressed="false" aria-label="배경음 켜기">♬ <span>소리 끔</span></button><button id="help" class="icon-button" aria-label="조사 안내">?</button></div>
+ </header>
+ <div class="desk-caption"><span>죽은 자의 말을 기록하다</span><span>第一錄 · 密陽 阿娘</span></div>
+ <div class="workspace">
+  <div class="book-back"></div>
+  <nav aria-label="조사 메뉴" id="nav"></nav>
+  <div class="book-cover"><div class="binding" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+   <main id="main" tabindex="-1"></main>
+   <footer><span>밀양 아랑 설화를 재구성한 창작 이야기</span><span id="page-number">第一張</span><span>退魔記錄室</span></footer>
+  </div>
+ </div>
+ <div class="desk-footer"><span>“죽은 이는 말이 없다고, 누가 그러던가.”</span><span>이어폰 권장 · 갑작스러운 큰 소리 없음</span></div>
+ <dialog id="modal" aria-labelledby="modal-title"><button class="close" aria-label="닫기">×</button><div id="modal-body"></div></dialog>
+ <div id="toast" role="status" aria-live="polite"></div>
+</body></html>
